@@ -1,59 +1,30 @@
 body {
     border: 0;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header, .hero{
+    background-color: #1F2937;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------------------------------------------------------------*/
 header {
     margin: 0;
     display: flex;
     justify-content: space-between;
     padding: 10px 100px;
     align-items: center;
+    color:#F9FAF8;
 }
-
 
 h1{
     font-size: 18px;
-}
-
-header, .awesome {
-    background-color: #1F2937;
-    color:#F9FAF8
-}
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
-.section{
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.awesome {
-    display: flex;
-}
-
-.info {
-    color: #1F2937;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    color: #1F2937;
-}
-
-.blue {
-    background-color: #3882F6;
-    color:#F9FAF8
-}
-
-footer {
-    background-color: #1F2937;
-    color:#F9FAF8;
-
 }
 
 ul{
@@ -65,3 +36,81 @@ li{
     text-decoration: none;
     list-style-type: none;
 }
+
+/*------------------------------------------------------------------------*/
+.hero{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+}
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+
+.hero_main{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.hero_secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.image{
+    background-color: gray;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*---------------------------------------------------------------------------*/
+.info {
+    color: #1F2937;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------------------------------------------------------------*/
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------------------------------------------------------------*/
+.action{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.blue {
+    background-color: #3882F6;
+    color:#F9FAF8
+}
+
+/*---------------------------------------------------------------------------*/
+footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+
+}
+
